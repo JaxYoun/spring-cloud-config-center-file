@@ -1,0 +1,9 @@
+eureka:
+  client:
+    fetchRegistry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka-server-7001:7001/eureka,http://eureka-server-7002:7002/eureka
+  instance:
+    instance-id: config-client-5002
+    prefer-ip-address: true
