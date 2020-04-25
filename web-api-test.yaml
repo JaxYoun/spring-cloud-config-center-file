@@ -21,3 +21,6 @@ feign:
 logging:
   level:
     root: info
+
+yang:
+  name: jianxiong
